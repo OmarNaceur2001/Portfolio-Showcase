@@ -9,7 +9,7 @@ const projects = [
     subtitle: "Autonomous Multi-Agent Software Delivery Pipeline",
     description: "Architected a multi-agent system (Planner → Code Agent → Deploy Agent) that autonomously converts Jira tickets into deployed, live web pages.",
     stack: ["Python", "FastAPI", "Groq (Llama 3.3)", "GitHub API", "Playwright"],
-    link: "https://github.com/OmarNaceur2001",
+    link: "https://github.com/OmarNaceur2001/agentic-sdlc",
     highlight: true,
   },
   {
@@ -18,6 +18,7 @@ const projects = [
     subtitle: "Computer Vision & Explainable AI",
     description: "Built a full-stack diagnostic platform for brain MRI tumor and chest CT lung cancer classification, featuring Grad-CAM explainability and autoencoder-based anomaly detection.",
     stack: ["Python", "TensorFlow", "FastAPI", "Streamlit", "EfficientNetB0"],
+    link: "https://github.com/OmarNaceur2001/Medical-AI-Diagnostic-Assistant",
     highlight: false,
   },
   {
@@ -26,14 +27,7 @@ const projects = [
     subtitle: "Deep Learning for Medical Signals",
     description: "Developed a deep learning model to classify ECG signals using a ResNet-50 architecture on complex medical time-series data.",
     stack: ["Python", "TensorFlow", "ResNet-50"],
-    highlight: false,
-  },
-  {
-    id: "04",
-    title: "Data Repartitioner & Profile Generator",
-    subtitle: "Python Data Engineering Tool",
-    description: "A CLI tool for intelligent dataset splitting with stratified, random, and k-fold strategies. Generates persistent user profiles and column-by-column data stats reports. Supports demo data generation with zero setup.",
-    stack: ["Python", "Pandas", "NumPy", "Scikit-learn"],
+    link: "https://github.com/OmarNaceur2001/ECG-Classification-AI",
     highlight: false,
   }
 ];
