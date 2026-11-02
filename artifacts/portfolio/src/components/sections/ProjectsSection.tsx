@@ -162,7 +162,7 @@ const projects: ProjectData[] = [
     contribution:
       "Developed an end-to-end cardiac intelligence platform trained on the PTB-XL database (21,837 12-lead ECG recordings) to detect 5 clinical diagnostic superclasses: Normal Sinus (NORM), Myocardial Infarction (MI), ST/T Changes (STTC), Conduction Disturbance (CD), and Arrhythmia (ARR). Built multimodal ingestion pipelines supporting raw signal arrays (.dat, .npy, .csv) and image uploads, alongside a hospital administrative portal, role-based authorization, and an integrated cardiology clinical assistant.",
     stack: ["Python", "TensorFlow / PyTorch", "PTB-XL Dataset", "FastAPI", "React", "Clinical NLP"],
-    githubUrl: "https://github.com/OmarNaceur2001",
+    githubUrl: "https://github.com/oussama121tt/rhythmai",
     gallery: [
       {
         src: "/projects/rhythmai/rhythmai-landing.webp",
@@ -235,7 +235,7 @@ const projects: ProjectData[] = [
     contribution:
       "Collaborated as part of an engineering student team to build an artisanal e-commerce and craft workshop platform. Specifically designed and integrated the interactive 'Artisan Assistant' conversational AI chatbot to handle automated customer inquiries regarding workshop hours, artisan locations, and craft catalog details, while contributing to the Leaflet / OpenStreetMap interactive geographic workshop booking integration.",
     stack: ["React", "JavaScript", "Conversational AI / NLP", "Leaflet", "OpenStreetMap", "REST APIs"],
-    githubUrl: "https://github.com/OmarNaceur2001",
+    githubUrl: "https://github.com/AyaTlijani/ArtisanConnect",
     gallery: [
       {
         src: "/projects/artisanconnect/artisanconnect-1.webp",
