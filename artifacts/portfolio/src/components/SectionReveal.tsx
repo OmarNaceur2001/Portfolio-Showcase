@@ -1,8 +1,8 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, type HTMLMotionProps, type Variants } from 'framer-motion';
 import { cn } from '@/lib/utils';
 
-interface SectionRevealProps extends React.HTMLAttributes<HTMLDivElement> {
+interface SectionRevealProps extends HTMLMotionProps<'div'> {
   children: React.ReactNode;
   delay?: number;
   direction?: 'up' | 'down' | 'left' | 'right' | 'none';
@@ -17,7 +17,7 @@ export function SectionReveal({
   fullWidth = false,
   ...props
 }: SectionRevealProps) {
-  const variants = {
+  const variants: Variants = {
     hidden: {
       opacity: 0,
       y: direction === 'up' ? 30 : direction === 'down' ? -30 : 0,
@@ -29,7 +29,7 @@ export function SectionReveal({
       x: 0,
       transition: {
         duration: 0.7,
-        ease: [0.21, 0.47, 0.32, 0.98], // Custom ease-out
+        ease: [0.21, 0.47, 0.32, 0.98] as const, // Custom ease-out
         delay: delay,
       },
     },
